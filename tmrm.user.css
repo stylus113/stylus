@@ -38,33 +38,23 @@
     
 
     #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(1) {pointer-events:none !important;} /* ユーザタブ→「新規ユーザ」ボタン */
-    
     #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(3) {pointer-events:none !important;} /* ユーザタブ→「テンプレートの割り当て」ボタン */
-    
     #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(5) {pointer-events:none !important;} /*ユーザタブ→ 「ポリシー設定」ボタン */
-    
-    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(7) {pointer-events:none !important;}/* ユーザタブ→「CloudEdgeの設定」ボタン */
-
-    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(9) {pointer-events:none !important;}/* ユーザタブ→「ライセンスの更新」ボタン */
-    
-    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(11) {pointer-events:none !important;}/*ユーザタブ→ 「エクスポート」ボタン */
-    
-    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(13) {pointer-events:none !important;}/* ユーザタブ→「全てエクスポート」ボタン */
-    
-    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(15) {pointer-events:none !important;}/*ユーザタブ→ 「設定」ボタン */
+    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(7) {pointer-events:none !important;} /* ユーザタブ→「CloudEdgeの設定」ボタン */
+    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(9) {pointer-events:none !important;} /* ユーザタブ→「ライセンスの更新」ボタン */
+    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(11) {pointer-events:none !important;} /*ユーザタブ→ 「エクスポート」ボタン */
+    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(13) {pointer-events:none !important;} /* ユーザタブ→「全てエクスポート」ボタン */
+    #pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(15) {pointer-events:none !important;} /*ユーザタブ→ 「設定」ボタン */
 
     #pagelet > div > div > div.active > div > div > div > div > div:nth-child(1) > div > button:nth-child(1) {pointer-events:none !important;}/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
-    
-    #pagelet > div > div > div.active > div.SummaryList__LogsList-sc-e3x5m0-0.iamXeR > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > button {pointer-events:none !important;}/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
-
-    #pagelet > div > div > div.active > div.LiveStatusList__LogsList-sc-1nkfbfl-0.fSignY > div > div:nth-child(1) > div > div.actions {pointer-events:none !important;}/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
+    div.SummaryList__LogsList-sc-e3x5m0-0.iamXeR > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > button {pointer-events:none !important;}/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
+    div.LiveStatusList__LogsList-sc-1nkfbfl-0.fSignY > div > div:nth-child(1) > div > div.actions {pointer-events:none !important;}/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
 
     
     
     /* div.control-group:nth-child(1) {display:none !important;} /* サードパーティー通知 */
     /* div.control-group:nth-child(2) {display:none !important;} /* サードパーティー通知 */
     /* div.control-group:nth-child(3) {display:none !important;} /* サードパーティー通知 */
-
     /* label.checkbox:nth-child(1) {display:none !important;} /*　余計なところまで非表示になってしまう */
     label.checkbox:nth-child(1) {pointer-events:none !important;} /* サードパーティー通知 */    
     a[href="#/administration/integration"] {pointer-events:none !important;} /* 「[管理]＞[サードパーティー...]」リンクの無効化 */    
