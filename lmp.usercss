@@ -1,1 +1,26 @@
+/* ==UserStyle==
+@name           LMP
+@namespace      github.com/openstyles/stylus
+@version        1.0.0.0
+@description    A new userstyle
+@author         Miii
+==/UserStyle== */
 
+@-moz-document url-prefix("https://licensingplatform.trendmicro.com/") {
+    /* ここにコードを挿入... */
+
+    div.tm-brand:first-child::after {content: "　（SBC東海カスタムVer　※一部情報・機能をマスク及び無効化しています）" !important;}
+    /* li:nth-child(1)::before {content: "１２３４５６７８９1011121314151617181920１２３４５６７８９30１２３" !important;} */
+
+    
+    li.dropdown:nth-child(4) {pointer-events:none !important;}    /* 「ユーザとライセンス」クリック無効 */    
+    li.dropdown:nth-child(6) {pointer-events:none !important;}    /* 「ロイヤリティ」クリック無効 */        
+    /* li.dropdown:nth-child(10) {display:none !important;}    /* クリック無効 */    
+
+    a#mnu-funcAccountInformation {pointer-events:none !important;} /* 「アカウント情報」 */
+    a#mnu-funcCompnayInformation {pointer-events:none !important;} /* 「会社情報」 */
+    /* a#mnu-funcBranding {pointer-events:none !important;} /*  */
+    li.tm-dropdown-submenu:nth-child(5) {pointer-events:none !important;} /* 「ブランド設定」 */
+    /* li.tm-dropdown-submenu:nth-child(5) {display:none !important;} /*  */
+    a#mnu-funcTransactionReport {pointer-events:none !important;} /* 「エンドユーザーのトランザクション」 */    
+}
