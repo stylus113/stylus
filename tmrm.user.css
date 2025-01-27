@@ -11,10 +11,10 @@
 
     .roleName::before {content: "（SBC東海カスタムVer　※一部情報・機能をマスク及び無効化しています）　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　" !important;}
         
-    body > div:nth-child(7) > div.css-27e272.eecupy40 > div:nth-child(1) > button:nth-child(3) {pointer-events:none !important;}/* 20241107_「使用状況のエクスポート」　クリック無効 */
+    div.css-27e272.eecupy40 > div:nth-child(1) > button:nth-child(3) {pointer-events:none !important;}/* 20241107_「使用状況のエクスポート」　クリック無効 */
     /* a.btn-icon.ubt-tracking {display:none !important;} classの書き方 */
     /* li[data-page="reports"] {display:none !important;}  /* 属性セレクタの書き方 */
-    body > div:nth-child(7) > div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(3) {pointer-events:none !important;}/* 20241219_Detectiom&Responseボタン　クリック無効 */
+    div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(3) {pointer-events:none !important;}/* 20241219_Detectiom&Responseボタン　クリック無効 */
     div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(4) {pointer-events:none !important;}/* 20241108_レポートボタン　クリック無効 */
     div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(5) {pointer-events:none !important;}/* 20241108_管理ボタン　クリック無効 */
 
