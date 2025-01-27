@@ -69,3 +69,4 @@
     label.checkbox:nth-child(1) {pointer-events:none !important;} /* サードパーティー通知 */    
     a[href="#/administration/integration"] {pointer-events:none !important;} /* 「[管理]＞[サードパーティー...]」リンクの無効化 */    
     label.radio {pointer-events:none !important;} /* 「」欄 */
+}
