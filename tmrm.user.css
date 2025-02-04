@@ -49,8 +49,7 @@
     div.active > div > div > div > div > div:nth-child(1) > div > button:nth-child(n) {pointer-events:none !important;} /*ﾀﾞｯｼｭﾎﾞｰﾄﾞ⇒通知センタ⇒ 「全てエクスポート」「消去」「通知設定」のボタンを無効化 */
     div.active > div.SummaryList__LogsList-sc-e3x5m0-0.iamXeR > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > button {pointer-events:none !important;}/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
     div.active > div.LiveStatusList__LogsList-sc-1nkfbfl-0.fSignY > div > div:nth-child(1) > div > div.actions {pointer-events:none !important;}/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
-    div.react-grid-layout > div:nth-child(7) > div > div.not-draggable.css-kkbapy.eecupy40 > div > div:nth-child(3) {pointer-events:none !important;}/*通知を受信したユーザ→ 「要調査」 */
-
+    #pagelet > div > div > div.active > div > div > div.react-grid-layout > div:nth-child(n) > div > div.not-draggable.css-kkbapy.eecupy40 > div > div:nth-child(3) {pointer-events:none !important;}/*通知を受信したユーザ→ 「要調査」 */
         
     /* div.control-group:nth-child(1) {display:none !important;} /* サードパーティー通知 */
     /* div.control-group:nth-child(2) {display:none !important;} /* サードパーティー通知 */
