@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           cm.toresavi.com/service
+@namespace      github.com/openstyles/stylus
+@version        1.0.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://cm.toresavi.com/service") {
+    /* ここにコードを挿入... */
+
+
+/*SVOP権限双方に適用*/
+body > div > div > main > div > div > div > div > div > div:nth-child(2) {display:none} 
+/*[お客様CSV登録][登録エラーリスト][お客様登録履歴DL][お客様利用履歴DL][メール通知設定]ボタンの非表示*/
+    
+    }
