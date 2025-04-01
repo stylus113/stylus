@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           adminweb.dx-suite.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("adminweb.dx-suite.com") {
+    /* ここにコードを挿入... */
+
+/*OP権限のみ適用*/
+body > div > div#paging-data > div > form#billing-serch-form > input#dl {display:none}  /*CSVダウンロード*/
+    
+    }
