@@ -1,0 +1,63 @@
+/* ==UserStyle==
+@name           licensingplatform.trendmicro.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("licensingplatform.trendmicro.com") {
+    /* ここにコードを挿入... */
+    
+    /*「ユーザとライセンス」*/
+li.dropdown:nth-child(4) {
+	/*pointer-events:none !important;*/
+	background-color:gray	!important;
+ 	display:none !important
+}
+li.tm-divider-vertical {	width:0.1px !important;} 
+
+/*「ロイヤリティ」*/
+li.dropdown:nth-child(6) {
+	/*pointer-events:none*/
+	display:none !important;
+} 
+/*管理は一部のみ無効*/
+	/*「アカウント情報」*/
+	a#mnu-funcAccountInformation {
+		/*pointer-events:none !important;*/
+		display:none !important;		
+	}
+	/*「会社情報」*/
+	a#mnu-funcCompnayInformation {
+		/*pointer-events:none !important;*/
+		display:none !important;
+	} 
+	/*「ブランド設定」*/
+	li.tm-dropdown-submenu:nth-child(5) {
+		/*pointer-events:none !important;*/
+		display:none !important;
+	} 
+	/* 「エンドユーザーのトランザクション」  */
+	/* li.tm-dropdown-submenu:nth-child(5) {display:none !important;} */
+	a#mnu-funcTransactionReport {
+		/*pointer-events:none !important;*/
+		display:none !important;
+	} 
+
+/*サイドバー制御*/
+nav#sidebar > a#lnk-addCustomer {display:block!important}                   /*エンドユーザ追加*/
+a[data-modal-page="page-addPartner"]{display:none!important}                /*パートナー作成*/
+a[data-modal-page="page-addServicePlan"]{display:none!important}            /*サービスプラン作成*/
+a[data-modal-page="page-CustomerSummaryReport"]{display:none!important}     /*エンドユーザ概要のエクスポート*/
+
+nav#nav-main:last-child::after {
+    content: "（必要なとこだけ表示ver 大阪SBC）";
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top:30%;
+}
+    
+    
+}
