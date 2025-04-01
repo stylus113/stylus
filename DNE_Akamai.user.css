@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           akamai.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("akamai.com") {
+    /* ここにコードを挿入... */
+
+
+/*SVOP両方に適用*/
+body > akam-root > div.akam-global-loading-container.akam-loading-spinner-container > akam-dashboard.ng-star-inserted > div.akam-grid-container > akam-tabs.ng-tns-c3063632301-0.akam-tabs.ng-star-inserted > div.ng-tns-c3063632301-0.akam-tabs-container.akam-tabs-container--horizontal.akam-tabs-container-spacing--high.akam-tabs-container--border > div.akam-tabs_content.ng-tns-c3063632301-0.ng-star-inserted > akam-users.ng-star-inserted > akam-users-clients-table.ng-star-inserted > div.table-toolbar > akam-icon.m.akam-icon  {display:none} /*Export to CSV　ボタンの非表示*/
+   
+    
+    }
