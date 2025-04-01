@@ -1,0 +1,143 @@
+/* ==UserStyle==
+@name           wfbs-svc-nabu.trendmicro.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("wfbs-svc-nabu.trendmicro.com") {
+    /* ここにコードを挿入... */
+}
+@-moz-document url-prefix("https://rm-nabu.trendmicro.com/") {
+    /* ここにコードを挿入... */
+
+/*
+●主な疑似クラス
+:first-child    最初の要素
+:last-child     最後の要素
+:nth-child(n)   n番目の要素  
+:first-of-type  最初のタイプ要素
+:last-of-type   最後のタイプ要素
+:nth-of-type(n) n番目のタイプ要素
+
+●使用している処理
+display:none        要素の非表示 
+pointer-events:none ポインタ無効化
+!important          最優先実行
+*/
+/* a.btn-icon.ubt-tracking {display:none !important;} classの書き方 */
+/* li[data-page="reports"] {display:none !important;} 属性セレクタの書き方 */
+body > div:nth-child(7) > div.css-27e272.eecupy40 > div:nth-child(1) > button:nth-child(3) {
+    display: none !important;
+}
+/* 20241107_「使用状況のエクスポート」　クリック無効 */
+
+/*SV権限用
+body > div:nth-child(7) > div.css-27e272.eecupy40 > div:nth-child(1) > button:nth-child(2) {
+    display:none !important;
+}   /* 20241107_「ユーザの追加」　クリック無効 */
+div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(1) {
+    display: none !important;
+}
+/* 20241225_ダッシュボードボタン　クリック無効*/
+
+/*SV権限用
+body > div:nth-child(7) > div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(3) {
+    display:none !important;
+}   /* 20241219_Detectiom&Responseボタン　クリック無効 */
+div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(4) {
+    display: none !important;
+}
+/* 20241108_レポートボタン　クリック無効 */
+div.Sidebar-sc-21plxt-0.irWUYB > nav > ul > li:nth-child(5) {
+    display: none !important;
+}
+/* 20241108_管理ボタン　クリック無効 */
+a[name="connectwise"] {
+    pointer-events: none !important;
+}
+
+a[href="#/administration/notifications"] {
+    pointer-events: none !important;
+}
+/* 「グローバル通知の受信者設定を変更する」リンクの無効化 フラグメント識別子[#]で指定 */
+a[href="#/administration/integration"] {
+    pointer-events: none !important;
+}
+/* 「[管理]＞[サードパーティー...]」リンクの無効化 */
+label.checkbox:nth-child(1) {
+    pointer-events: none !important;
+}
+/* サードパーティー通知 */
+div.tm-form-row:nth-child(1) {
+    pointer-events: none !important;
+}
+/* 「アカウント管理者」欄 */
+div.active[data-view="home/dashboard"] {
+    display: none !important;
+}
+/*TOPのダッシュボード画面無効*/
+.Content-sc-g5e3qh-0.eBCFkW {
+    display: none !important;
+}
+
+.FindCustomer__StyledSearchInput-sc-cis7o2-0.kEOWbm::after {
+    content: "（必要なところだけ表示ver 大阪SBC）";
+    position: absolute;
+    font-weight: bold;
+    top: 20%;
+    right: -355px;
+    color: white;
+}
+/*ユーザ検索の行にバナー表示*/
+#pagelet > div > div > div[data-page="customers"] > div > div[data-automation="customers-customers-list-table"] > div:nth-child(1) > div.table-toolbar---IJU24 > div.actions {
+    display: none !important;
+}
+/*↑ ユーザタブ→各種設定ボタン画面の非表示 下のユーザタブのボタンは全て無効化*/
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(1) {
+    pointer-events: none !important;
+} 
+/*↑ ユーザタブ→「新規ユーザ」ボタン */
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(3) {
+    pointer-events: none !important;
+}
+/* ユーザタブ→「テンプレートの割り当て」ボタン */
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(5) {
+    pointer-events: none !important;
+}
+/*ユーザタブ→ 「ポリシー設定」ボタン */
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(7) {
+    pointer-events: none !important;
+} 
+/* ユーザタブ→「CloudEdgeの設定」ボタン */
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(9) {
+    pointer-events: none !important;
+}
+/* ユーザタブ→「ライセンスの更新」ボタン */
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(11) {
+    pointer-events: none !important;
+}
+/*ユーザタブ→ 「エクスポート」ボタン */
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(13) {
+    pointer-events: none !important;
+}
+/* ユーザタブ→「全てエクスポート」ボタン */
+#pagelet > div > div > div.active > div > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > div:nth-child(15) {
+    pointer-events: none !important;
+}
+/*ユーザタブ→ 「設定」ボタン */
+#pagelet > div > div > div.active > div > div > div > div > div:nth-child(1) > div > button:nth-child(1) {
+    pointer-events: none !important;
+}
+/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
+#pagelet > div > div > div.active > div.SummaryList__LogsList-sc-e3x5m0-0.iamXeR > div.table---table-wrapper---1t2D3.table---table-bordered---1cbV4.table---table-auto-fit---2I_0P.table---table-fixed-header---3bjFf.table---table-hover---3yCb6.table---table-sortable---KlbyF > div:nth-child(1) > div > div.actions > button {
+    pointer-events: none !important;
+}
+/*ダッシュボードタブ→イベントログ→ 「全てエクスポート」ボタン */
+#pagelet > div > div > div.active > div.LiveStatusList__LogsList-sc-1nkfbfl-0.fSignY > div > div:nth-child(1) > div > div.actions {
+    pointer-events: none !important;
+}
+/*ダッシュボードタブ関連も項目自体を非表示にしたので効果なし。過去の産物*/
+/*label.radio {pointer-events:none !important;} /* 「」欄 */
+}
