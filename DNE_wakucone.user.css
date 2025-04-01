@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           work-connect.jp
+@namespace      github.com/openstyles/stylus
+@version        1.0.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("work-connect.jp") {
+    /* ここにコードを挿入... */
+
+
+/*OP権限のみこのCSSを適用*/
+/*
+body > div > div > div.Content > div.p-client > div > div.MainLayout > div.MainLayout_content > div:nth-child(1) > div.HorizontalLayout_column {display:none}   /*Excelエクスポート*/
+    
+    }
